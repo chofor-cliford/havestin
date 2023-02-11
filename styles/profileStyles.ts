@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProfileContainer = styled.div`
   width: 100%;
@@ -16,14 +16,13 @@ export const AccountsWrappers = styled.div`
   width: 64px;
   height: 64px;
   margin-right: 6px;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     width: 50px;
     height: 50px;
   }
 `;
 export const AccountsNameContainers = styled.div`
   display: flex;
-  
 `;
 
 export const AccountNames = styled.p`
@@ -64,9 +63,8 @@ export const ShowVideo = styled.p`
   font-weight: bold;
   cursor: pointer;
   font-size: large;
-  
+
   border-bottom: 2px solid #001;
-  
 `;
 export const NotShowVideo = styled.p`
   font-weight: bold;
@@ -74,11 +72,6 @@ export const NotShowVideo = styled.p`
   font-size: large;
   margin-top: 2px;
   color: #888;
-
 `;
 
-export const VideoListContainer = styled.div`
-  
-`;
-
-
+export const VideoListContainer = styled.div``;

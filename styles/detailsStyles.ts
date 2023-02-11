@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { MdOutlineCancel } from 'react-icons/md';
+import styled from "styled-components";
+import { MdOutlineCancel } from "react-icons/md";
 
 export const DetailContainer = styled.div`
   display: flex;
@@ -9,7 +9,6 @@ export const DetailContainer = styled.div`
   background: #fff;
   flex-wrap: wrap;
   width: 100%;
-  
 `;
 
 export const DetailWrapper = styled.div`
@@ -21,9 +20,8 @@ export const DetailWrapper = styled.div`
   align-items: center;
   overflow: hidden;
   background: #000;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     width: 60%;
-
   }
 `;
 
@@ -39,7 +37,7 @@ export const CancleIconContainer = styled.div`
 export const CancleIcon = styled(MdOutlineCancel)`
   color: #fff;
   font-size: 35px;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     font-size: 21px;
   }
 `;
@@ -50,17 +48,14 @@ export const VideoDetailContainer = styled.div`
 
 export const VideoDetailWrapper = styled.div`
   height: 100vh;
- 
 `;
 
 export const DetailVideo = styled.video`
   height: 100vh;
   cursor: pointer;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     width: 60vw;
-
   }
- 
 `;
 export const PlayButtonContainer = styled.div`
   position: absolute;
@@ -89,15 +84,13 @@ export const ImageDetailContainer = styled.div`
 export const DetailRightContainer = styled.div`
   position: relative;
   width: 25%;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     width: 40%;
-
   }
 `;
 
 export const DetailRightWrapper = styled.div`
   margin-top: 20px;
-  
 `;
 export const DetailRightArrangement = styled.div`
   width: 40px;
@@ -120,5 +113,4 @@ export const CaptionText = styled.p`
 export const LikeContainer = styled.div`
   margin-top: 10px;
   padding: 0 10px;
-  
 `;
