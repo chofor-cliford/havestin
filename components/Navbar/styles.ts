@@ -58,7 +58,7 @@ export const NavSearchContainer = styled.form`
   outline: none;
 
   &:focus{
-    outline: 2px solid #ddd;
+    outline: 2px solid #ccc;
   }
 
   @media screen and (max-width: 768px) {
@@ -72,6 +72,7 @@ export const NavInput = styled.input`
   padding: 13px 0;
   width: 300px;
   border: none;
+  outline: none;;
   border-right: 1px solid #ddd;
 `;
 
