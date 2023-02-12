@@ -5,6 +5,7 @@ export const NavContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 2px solid #e1e1e1;
   padding: 2px 4px;
 `;
@@ -47,31 +48,24 @@ export const LogoutButton = styled.button`
   border-radius: 20px;
 `;
 
-export const NavSearchContainer = styled.div`
-  position: relative;
-  display: block;
+export const NavSearchContainer = styled.form`
+  display: flex;
+  align-items: center;
+  padding: 3px 0px;
   @media screen and (max-width: 768px){
     display: none;
   }
 `;
 
-export const NavForm = styled.div`
-  position: absolute;
-  top: 0;
-  left: -120px;
-  @media screen and (max-width: 768px){
-    display: static;
-  }
-`;
 
 export const NavInput = styled.input`
   background: #f5f5f5;
-  padding: 3px;
+  padding: 13px 0;
   font-size: medium;
   border: 2px solid #f5f5f5;
   width: 300px;
   border-radius: 10px;
-  top: 0;
+  border-right: 1px solid #ddd;
   &:focus{
     outline: none;
     border: 2px solid #ddd;
@@ -79,13 +73,6 @@ export const NavInput = styled.input`
 `;
 
 export const NavSearchButton = styled.button`
-  top: 0px;
-  right: 6px;
-  position: absolute;
-  border-left: 1px solid #ddd;
-  border-right: none;
-  border-top: none;
-  border-bottom: none;
   font-size: x-large;
   padding-left: 4px;
   color: #ddd;
