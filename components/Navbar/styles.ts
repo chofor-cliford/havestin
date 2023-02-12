@@ -53,6 +53,13 @@ export const NavSearchContainer = styled.form`
   align-items: center;
   padding: 3px 0px;
   background: #f5f5f5;
+  border: 2px solid #f5f5f5;
+  border-radius: 10px;
+  outline: none;
+
+  &:focus{
+    outline: 2px solid #ddd;
+  }
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -63,21 +70,15 @@ export const NavSearchContainer = styled.form`
 export const NavInput = styled.input`
   background: #f5f5f5;
   padding: 13px 0;
-  font-size: medium;
-  border: 2px solid #f5f5f5;
   width: 300px;
-  border-radius: 10px;
   border-right: 1px solid #ddd;
-  &:focus{
-    outline: none;
-    border: 2px solid #ddd;
-  }
 `;
 
 export const NavSearchButton = styled.button`
   font-size: x-large;
   color: #ddd;
   background: none;
+  border: none;
 `;
 
 
