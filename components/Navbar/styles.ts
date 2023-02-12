@@ -71,6 +71,7 @@ export const NavInput = styled.input`
   background: #f5f5f5;
   padding: 13px 0;
   width: 300px;
+  border: none;
   border-right: 1px solid #ddd;
 `;
 
