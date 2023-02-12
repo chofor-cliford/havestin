@@ -5,7 +5,6 @@ export const NavContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  align-items: center;
   border-bottom: 2px solid #e1e1e1;
   padding: 2px 4px;
 `;
@@ -50,18 +49,15 @@ export const LogoutButton = styled.button`
 
 export const NavSearchContainer = styled.div`
   position: relative;
-  background: #f5f5f5;
-  padding: 0px 5px;
   display: block;
-
   @media screen and (max-width: 768px){
     display: none;
   }
 `;
 
-export const NavForm = styled.form`
+export const NavForm = styled.div`
   position: absolute;
-  top: -6px;
+  top: 0;
   left: -120px;
   @media screen and (max-width: 768px){
     display: static;
@@ -70,7 +66,7 @@ export const NavForm = styled.form`
 
 export const NavInput = styled.input`
   background: #f5f5f5;
-  padding: 13px;
+  padding: 3px;
   font-size: medium;
   border: 2px solid #f5f5f5;
   width: 300px;
