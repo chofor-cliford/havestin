@@ -23,7 +23,7 @@ const SuggestedAccounts = () => {
           <AccountsContainer>
             <AccountsWrapper>
               <Image 
-              src={`${user.image}`} 
+              src={user.image} 
               layout='responsive' 
               alt='user profile' 
               width={32} 
