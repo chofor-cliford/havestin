@@ -52,7 +52,9 @@ export const NavSearchContainer = styled.form`
   display: flex;
   align-items: center;
   padding: 3px 0px;
-  @media screen and (max-width: 768px){
+  background: #f5f5f5;
+
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -74,9 +76,8 @@ export const NavInput = styled.input`
 
 export const NavSearchButton = styled.button`
   font-size: x-large;
-  padding-left: 4px;
   color: #ddd;
-  background: transparent;
+  background: none;
 `;
 
 
