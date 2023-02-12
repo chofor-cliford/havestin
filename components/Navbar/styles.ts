@@ -80,6 +80,7 @@ export const NavSearchButton = styled.button`
   font-size: x-large;
   color: #ddd;
   background: none;
+  cursor: pointer;
   border: none;
 `;
 
