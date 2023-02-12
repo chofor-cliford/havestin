@@ -61,7 +61,7 @@ export const NavSearchContainer = styled.div`
 
 export const NavForm = styled.form`
   position: absolute;
-  top: 0;
+  top: -6px;
   left: -120px;
   @media screen and (max-width: 768px){
     display: static;
